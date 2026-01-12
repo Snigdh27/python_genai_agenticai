@@ -4,3 +4,6 @@ def update_order():
         nonlocal chai_type 
         chai_type = "Kesar"
     kitchen()
+    print("Chai Type:", chai_type)
+
+update_order()
